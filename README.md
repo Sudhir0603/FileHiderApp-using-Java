@@ -50,12 +50,11 @@ Through this project, I gained hands-on experience in:
 
 | Screen | Screenshot |
 |--------|------------|
-| 👋 Welcome Screen | ![](assets/welcomeScreen.png) |
-| 📝 Sign Up | ![](assets/signup.png) |
-| 🔐 Login with OTP | ![](assets/loginwithOTP.png) |
+| 👋 Welcome Screen | ![](assets/WelcomeScreen.png) |
+| 🔐 Login with OTP | ![](assets/LoginwithOTP.png) |
 | ✉️ OTP Email Received | ![](assets/email_preview.jpg) |
 | 📂 Hide a File | ![](assets/HideFile.png) |
-| 👁️ View Hidden Files | ![](assets/show_files.png) |
+| 👁️ View Hidden Files | ![](assets/ViewHiddenFiles.png) |
 | 🚫 Unhide a File | ![](assets/UnhideFile.png) |
 
 ---
@@ -66,3 +65,33 @@ Through this project, I gained hands-on experience in:
    ```bash
    git clone https://github.com/your-username/FileHiderApp-using-Java.git
    ```
+
+2.  **Setup Database**
+
+Create a MySQL database (e.g., file_hider)
+
+Add users and files tables using your own schema
+
+Update DB credentials in DataDAO.java
+
+3. **Run the Application**
+
+Open project in IntelliJ or Eclipse
+
+Run the Main class
+
+Start hiding your secret files 😄
+
+
+
+
+### 💡 Future Improvements
+GUI version using JavaFX or Swing
+
+Password-based login system
+
+Encrypt file paths
+
+Delete files securely
+
+Dark mode CLI 🌑
